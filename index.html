@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Projeto Web</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <i id="menuMobile" class="fa fa-bars"></i>
+        <a href="#" class="logo">Projeto Web</a>
+        <nav id="navMenu">
+            <ul class="navbar">
+                <li><a href="#"><i class="fa fa-home"></i>HOME</a></li>
+                <li><a href="#"><i class="fa fa-building"></i>EMPRESA</a></li>
+                <li><a href="#"><i class="fa fa-user"></i>SERVIÇOS</a></li>
+                <li><a href="#"><i class="fa fa-phone"></i>CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="slide">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/1.jpg" class="d-block w-100" alt="1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/2.jpg" class="d-block w-100" alt="2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/3.jpg" class="d-block w-100" alt="3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="welcome">
+            <h1>Seja Bem Vindo...</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum tempore officiis facere reprehenderit, veritatis veniam cumque.</p>
+            <i class="fa fa-ban"></i>
+        </div>
+        <div class="about">
+            <h1>Sobre os nossos serviços...</h1>
+            <div class="create">
+                <div class="box sites">
+                    <i class="fa fa-laptop"></i>
+                    <p>CRIAÇÃO<br> DE SITES</p>
+                </div>
+                <div class="box host">
+                    <i class="fa fa-server"></i>
+                    <p>HOSPEDAGEM<br> DE SITES</p>
+                </div>
+                <div class="box settings">
+                    <i class="fa fa-gears"></i>
+                    <p>MANUTENÇÃO<br> DE SITES</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

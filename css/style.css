@@ -1,0 +1,176 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.cabecalho {
+    background-color: #000;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 150px;
+    height: 70px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+.welcome {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: center;
+}
+
+.welcome h1 {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+.welcome p {
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box i {
+    color: #000;
+    font-size: 25px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+
+.about h1 {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.create {
+    display: flex;
+    gap: 120px;
+    margin-top: 30px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 500px;
+}
+
+#menuMobile {
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    #navMenu {
+        position: absolute;
+        z-index: 3;
+        top: 70px;
+        left: -700px;
+        background-color: #000;
+        width: 100%;
+        transition: all 500ms linear;
+    }
+    
+    .navbar {
+        width: 100% !important;
+        background-color: #000;
+    }
+
+    #menuMobile {
+        display: block;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .fa-bars {
+        color: #FFF;
+    }
+
+    .fa-x {
+        color: #FFF;
+    }
+
+    .cabecalho {
+        background-color: #000;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 0px;
+        height: 80px;
+        align-items: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    img {
+        height: 200px;
+    }
+
+    .welcome p {
+        width: 300px;
+    }
+
+    .create {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .about {
+        margin-bottom: 20px;
+    }
+}
